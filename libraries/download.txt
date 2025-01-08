@@ -1,0 +1,4 @@
+#Required libraries
+hamcrest-core-1.3.jar
+hsqldb-2.7.3.jar
+junit-4.13.2.jar
