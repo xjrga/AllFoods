@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <xsd:schema version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <xsd:element name="foods" type="foods">
         <xsd:annotation>
@@ -84,7 +83,7 @@
             <xsd:element name="minerals-phosphorus" type="minerals-phosphorus" minOccurs="0" maxOccurs="1" />
             <!-- Minerals, Potassium, mg, 306, minerals-potassium -->
             <xsd:element name="minerals-potassium" type="minerals-potassium" minOccurs="0" maxOccurs="1" />
-            <!-- Minerals, Selenium, µg, 317, minerals-selenium -->
+            <!-- Minerals, Selenium, mcg, 317, minerals-selenium -->
             <xsd:element name="minerals-selenium" type="minerals-selenium" minOccurs="0" maxOccurs="1" />
             <!-- Minerals, Sodium, mg, 307, minerals-sodium -->
             <xsd:element name="minerals-sodium" type="minerals-sodium" minOccurs="0" maxOccurs="1" />
@@ -102,9 +101,9 @@
             <xsd:element name="phytonutrients-anthocyanins" type="phytonutrients-anthocyanins" minOccurs="0" maxOccurs="1" />
             <!-- Phytonutrients, Caffeine, mg, 262, phytonutrients-caffeine -->
             <xsd:element name="phytonutrients-caffeine" type="phytonutrients-caffeine" minOccurs="0" maxOccurs="1" />
-            <!-- Phytonutrients, Carotene, beta, µg, 321, phytonutrients-beta_carotene -->
+            <!-- Phytonutrients, Carotene, beta, mcg, 321, phytonutrients-beta_carotene -->
             <xsd:element name="phytonutrients-beta_carotene" type="phytonutrients-beta_carotene" minOccurs="0" maxOccurs="1" />
-            <!-- Phytonutrients, Carotenoids, mg, 10019, phytonutrients-carotenoids -->
+            <!-- Phytonutrients, Carotenoids, mcg, 10019, phytonutrients-carotenoids -->
             <xsd:element name="phytonutrients-carotenoids" type="phytonutrients-carotenoids" minOccurs="0" maxOccurs="1" />
             <!-- Phytonutrients, Flavanols, mg, 10022, phytonutrients-flavanols -->
             <xsd:element name="phytonutrients-flavanols" type="phytonutrients-flavanols" minOccurs="0" maxOccurs="1" />
@@ -118,9 +117,9 @@
             <xsd:element name="phytonutrients-flavonols" type="phytonutrients-flavonols" minOccurs="0" maxOccurs="1" />
             <!-- Phytonutrients, Isoflavones, mg, 10025, phytonutrients-isoflavones -->
             <xsd:element name="phytonutrients-isoflavones" type="phytonutrients-isoflavones" minOccurs="0" maxOccurs="1" />
-            <!-- Phytonutrients, Lutein + zeaxanthin, µg, 338, phytonutrients-lutein_zeaxanthin -->
+            <!-- Phytonutrients, Lutein + zeaxanthin, mcg, 338, phytonutrients-lutein_zeaxanthin -->
             <xsd:element name="phytonutrients-lutein_zeaxanthin" type="phytonutrients-lutein_zeaxanthin" minOccurs="0" maxOccurs="1" />
-            <!-- Phytonutrients, Lycopene, µg, 337, phytonutrients-lycopene -->
+            <!-- Phytonutrients, Lycopene, mcg, 337, phytonutrients-lycopene -->
             <xsd:element name="phytonutrients-lycopene" type="phytonutrients-lycopene" minOccurs="0" maxOccurs="1" />
             <!-- Phytonutrients, Phytosterols, mg, 636, phytonutrients-phytosterols -->
             <xsd:element name="phytonutrients-phytosterols" type="phytonutrients-phytosterols" minOccurs="0" maxOccurs="1" />
@@ -130,9 +129,9 @@
             <xsd:element name="protein-complete" type="protein-complete" minOccurs="0" maxOccurs="1" />
             <!-- Protein, Total Protein, g, 203, protein-total -->
             <xsd:element name="protein-total" type="protein-total" minOccurs="0" maxOccurs="1" />
-            <!-- Vitamins, A, RAE, µg, 320, vitamins-vitamin_a -->
+            <!-- Vitamins, A, RAE, mcg, 320, vitamins-vitamin_a -->
             <xsd:element name="vitamins-vitamin_a" type="vitamins-vitamin_a" minOccurs="0" maxOccurs="1" />
-            <!-- Vitamins, B12, µg, 418, vitamins-vitamin_b12 -->
+            <!-- Vitamins, B12, mcg, 418, vitamins-vitamin_b12 -->
             <xsd:element name="vitamins-vitamin_b12" type="vitamins-vitamin_b12" minOccurs="0" maxOccurs="1" />
             <!-- Vitamins, B6, mg, 415, vitamins-vitamin_b6 -->
             <xsd:element name="vitamins-vitamin_b6" type="vitamins-vitamin_b6" minOccurs="0" maxOccurs="1" />
@@ -140,13 +139,13 @@
             <xsd:element name="vitamins-vitamin_c" type="vitamins-vitamin_c" minOccurs="0" maxOccurs="1" />
             <!-- Vitamins, Choline, mg, 421, vitamins-choline -->
             <xsd:element name="vitamins-choline" type="vitamins-choline" minOccurs="0" maxOccurs="1" />
-            <!-- Vitamins, D, µg, 328, vitamins-vitamin_d -->
+            <!-- Vitamins, D, mcg, 328, vitamins-vitamin_d -->
             <xsd:element name="vitamins-vitamin_d" type="vitamins-vitamin_d" minOccurs="0" maxOccurs="1" />
             <!-- Vitamins, E, mg, 323, vitamins-vitamin_e -->
             <xsd:element name="vitamins-vitamin_e" type="vitamins-vitamin_e" minOccurs="0" maxOccurs="1" />
-            <!-- Vitamins, Folate, DFE, µg, 435, vitamins-folate -->
+            <!-- Vitamins, Folate, DFE, mcg, 435, vitamins-folate -->
             <xsd:element name="vitamins-folate" type="vitamins-folate" minOccurs="0" maxOccurs="1" />
-            <!-- Vitamins, K, µg, 430, vitamins-vitamin_k -->
+            <!-- Vitamins, K, mcg, 430, vitamins-vitamin_k -->
             <xsd:element name="vitamins-vitamin_k" type="vitamins-vitamin_k" minOccurs="0" maxOccurs="1" />
             <!-- Vitamins, Niacin, mg, 406, vitamins-niacin -->
             <xsd:element name="vitamins-niacin" type="vitamins-niacin" minOccurs="0" maxOccurs="1" />
@@ -450,11 +449,11 @@
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Minerals, Selenium, µg, 317, minerals-selenium -->
+    <!-- Minerals, Selenium, mcg, 317, minerals-selenium -->
     <xsd:complexType name="minerals-selenium">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="317" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
@@ -531,20 +530,20 @@
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Phytonutrients, Carotene, beta, µg, 321, phytonutrients-beta_carotene -->
+    <!-- Phytonutrients, Carotene, beta, mcg, 321, phytonutrients-beta_carotene -->
     <xsd:complexType name="phytonutrients-beta_carotene">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="321" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Phytonutrients, Carotenoids, mg, 10019, phytonutrients-carotenoids -->
+    <!-- Phytonutrients, Carotenoids, mcg, 10019, phytonutrients-carotenoids -->
     <xsd:complexType name="phytonutrients-carotenoids">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="mg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="10019" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
@@ -603,20 +602,20 @@
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Phytonutrients, Lutein + zeaxanthin, µg, 338, phytonutrients-lutein_zeaxanthin -->
+    <!-- Phytonutrients, Lutein + zeaxanthin, mcg, 338, phytonutrients-lutein_zeaxanthin -->
     <xsd:complexType name="phytonutrients-lutein_zeaxanthin">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="338" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Phytonutrients, Lycopene, µg, 337, phytonutrients-lycopene -->
+    <!-- Phytonutrients, Lycopene, mcg, 337, phytonutrients-lycopene -->
     <xsd:complexType name="phytonutrients-lycopene">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="337" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
@@ -657,20 +656,20 @@
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Vitamins, A, RAE, µg, 320, vitamins-vitamin_a -->
+    <!-- Vitamins, A, RAE, mcg, 320, vitamins-vitamin_a -->
     <xsd:complexType name="vitamins-vitamin_a">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="320" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Vitamins, B12, µg, 418, vitamins-vitamin_b12 -->
+    <!-- Vitamins, B12, mcg, 418, vitamins-vitamin_b12 -->
     <xsd:complexType name="vitamins-vitamin_b12">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="418" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
@@ -702,11 +701,11 @@
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Vitamins, D, µg, 328, vitamins-vitamin_d -->
+    <!-- Vitamins, D, mcg, 328, vitamins-vitamin_d -->
     <xsd:complexType name="vitamins-vitamin_d">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="328" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
@@ -720,20 +719,20 @@
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Vitamins, Folate, DFE, µg, 435, vitamins-folate -->
+    <!-- Vitamins, Folate, DFE, mcg, 435, vitamins-folate -->
     <xsd:complexType name="vitamins-folate">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="435" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
     </xsd:complexType>
-    <!-- Vitamins, K, µg, 430, vitamins-vitamin_k -->
+    <!-- Vitamins, K, mcg, 430, vitamins-vitamin_k -->
     <xsd:complexType name="vitamins-vitamin_k">
         <xsd:simpleContent>
             <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="units" fixed="µg" type="xsd:string"/>
+                <xsd:attribute name="units" fixed="mcg" type="xsd:string"/>
                 <xsd:attribute name="nutr_no" fixed="430" type="food-metric"/>
             </xsd:extension>
         </xsd:simpleContent>
@@ -875,7 +874,7 @@
             <xsd:enumeration value = "305"/>
             <!-- Minerals, Potassium (mg), 306, minerals-potassium -->
             <xsd:enumeration value = "306"/>
-            <!-- Minerals, Selenium (µg), 317, minerals-selenium -->
+            <!-- Minerals, Selenium (mcg), 317, minerals-selenium -->
             <xsd:enumeration value = "317"/>
             <!-- Minerals, Sodium (mg), 307, minerals-sodium -->
             <xsd:enumeration value = "307"/>
@@ -893,7 +892,7 @@
             <xsd:enumeration value = "10024"/>
             <!-- Phytonutrients, Caffeine (mg), 262, phytonutrients-caffeine -->
             <xsd:enumeration value = "262"/>
-            <!-- Phytonutrients, Carotene, beta (µg), 321, phytonutrients-beta_carotene -->
+            <!-- Phytonutrients, Carotene, beta (mcg), 321, phytonutrients-beta_carotene -->
             <xsd:enumeration value = "321"/>
             <!-- Phytonutrients, Carotenoids (mg), 10019, phytonutrients-carotenoids -->
             <xsd:enumeration value = "10019"/>
@@ -909,9 +908,9 @@
             <xsd:enumeration value = "10020"/>
             <!-- Phytonutrients, Isoflavones (mg), 10025, phytonutrients-isoflavones -->
             <xsd:enumeration value = "10025"/>
-            <!-- Phytonutrients, Lutein + zeaxanthin (µg), 338, phytonutrients-lutein_zeaxanthin -->
+            <!-- Phytonutrients, Lutein + zeaxanthin (mcg), 338, phytonutrients-lutein_zeaxanthin -->
             <xsd:enumeration value = "338"/>
-            <!-- Phytonutrients, Lycopene (µg), 337, phytonutrients-lycopene -->
+            <!-- Phytonutrients, Lycopene (mcg), 337, phytonutrients-lycopene -->
             <xsd:enumeration value = "337"/>
             <!-- Phytonutrients, Phytosterols (mg), 636, phytonutrients-phytosterols -->
             <xsd:enumeration value = "636"/>
@@ -921,9 +920,9 @@
             <xsd:enumeration value = "10001"/>
             <!-- Protein, Total Protein (g), 203, protein-total -->
             <xsd:enumeration value = "203"/>
-            <!-- Vitamins, A, RAE (µg), 320, vitamins-vitamin_a -->
+            <!-- Vitamins, A, RAE (mcg), 320, vitamins-vitamin_a -->
             <xsd:enumeration value = "320"/>
-            <!-- Vitamins, B12 (µg), 418, vitamins-vitamin_b12 -->
+            <!-- Vitamins, B12 (mcg), 418, vitamins-vitamin_b12 -->
             <xsd:enumeration value = "418"/>
             <!-- Vitamins, B6 (mg), 415, vitamins-vitamin_b6 -->
             <xsd:enumeration value = "415"/>
@@ -931,13 +930,13 @@
             <xsd:enumeration value = "401"/>
             <!-- Vitamins, Choline (mg), 421, vitamins-choline -->
             <xsd:enumeration value = "421"/>
-            <!-- Vitamins, D (µg), 328, vitamins-vitamin_d -->
+            <!-- Vitamins, D (mcg), 328, vitamins-vitamin_d -->
             <xsd:enumeration value = "328"/>
             <!-- Vitamins, E (mg), 323, vitamins-vitamin_e -->
             <xsd:enumeration value = "323"/>
-            <!-- Vitamins, Folate, DFE (µg), 435, vitamins-folate -->
+            <!-- Vitamins, Folate, DFE (mcg), 435, vitamins-folate -->
             <xsd:enumeration value = "435"/>
-            <!-- Vitamins, K (µg), 430, vitamins-vitamin_k -->
+            <!-- Vitamins, K (mcg), 430, vitamins-vitamin_k -->
             <xsd:enumeration value = "430"/>
             <!-- Vitamins, Niacin (mg), 406, vitamins-niacin -->
             <xsd:enumeration value = "406"/>

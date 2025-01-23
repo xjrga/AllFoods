@@ -85,8 +85,8 @@ xmlwrap02('minerals-manganese',ifnull(a.n315,0),'mg','315'),
 xmlwrap02('minerals-phosphorus',ifnull(a.n305,0),'mg','305'),
 -- Minerals, Potassium, mg, 306, minerals-potassium -->
 xmlwrap02('minerals-potassium',ifnull(a.n306,0),'mg','306'),
--- Minerals, Selenium, µg, 317, minerals-selenium -->
-xmlwrap02('minerals-selenium',ifnull(a.n317,0),'µg','317'),
+-- Minerals, Selenium, mcg, 317, minerals-selenium -->
+xmlwrap02('minerals-selenium',ifnull(a.n317,0),'mcg','317'),
 -- Minerals, Sodium, mg, 307, minerals-sodium -->
 xmlwrap02('minerals-sodium',ifnull(a.n307,0),'mg','307'),
 -- Minerals, Zinc, mg, 309, minerals-zinc -->
@@ -103,10 +103,10 @@ xmlwrap02('other-weight',100.00,'g','10000'),
 xmlwrap02('phytonutrients-anthocyanins',ifnull(anthocyanidins,0),'mg','10024'),
 -- Phytonutrients, Caffeine, mg, 262, phytonutrients-caffeine -->
 xmlwrap02('phytonutrients-caffeine',ifnull(a.n262,0),'mg','262'),
--- Phytonutrients, Carotene, beta, µg, 321, phytonutrients-beta_carotene -->
-xmlwrap02('phytonutrients-beta_carotene',ifnull(a.n321,0),'µg','321'),
+-- Phytonutrients, Carotene, beta, mcg, 321, phytonutrients-beta_carotene -->
+xmlwrap02('phytonutrients-beta_carotene',ifnull(a.n321,0),'mcg','321'),
 -- Phytonutrients, Carotenoids, mg, 10019, phytonutrients-carotenoids -->
-xmlwrap02('phytonutrients-carotenoids',ifnull(a.n334+n337+n338,0),'mg','10019'),
+xmlwrap02('phytonutrients-carotenoids',ifnull(n321+n322+n334+n337+n338,0),'mcg','10019'),
 -- Phytonutrients, Flavanols, mg, 10022, phytonutrients-flavanols -->
 xmlwrap02('phytonutrients-flavanols',ifnull(flavan_3_ols,0),'mg','10022'),
 -- Phytonutrients, Flavanones, mg, 10023, phytonutrients-flavanones -->
@@ -119,10 +119,10 @@ xmlwrap02('phytonutrients-flavonoids',ifnull(flavonoids,0),'mg','10026'),
 xmlwrap02('phytonutrients-flavonols',ifnull(flavonols,0),'mg','10020'),
 -- Phytonutrients, Isoflavones, mg, 10025, phytonutrients-isoflavones -->
 xmlwrap02('phytonutrients-isoflavones',ifnull(isoflavones,0),'mg','10025'),
--- Phytonutrients, Lutein + zeaxanthin, µg, 338, phytonutrients-lutein_zeaxanthin -->
-xmlwrap02('phytonutrients-lutein_zeaxanthin',ifnull(a.n338,0),'µg','338'),
--- Phytonutrients, Lycopene, µg, 337, phytonutrients-lycopene -->
-xmlwrap02('phytonutrients-lycopene',ifnull(a.n337,0),'µg','337'),
+-- Phytonutrients, Lutein + zeaxanthin, mcg, 338, phytonutrients-lutein_zeaxanthin -->
+xmlwrap02('phytonutrients-lutein_zeaxanthin',ifnull(a.n338,0),'mcg','338'),
+-- Phytonutrients, Lycopene, mcg, 337, phytonutrients-lycopene -->
+xmlwrap02('phytonutrients-lycopene',ifnull(a.n337,0),'mcg','337'),
 -- Phytonutrients, Phytosterols, mg, 636, phytonutrients-phytosterols -->
 xmlwrap02('phytonutrients-phytosterols',ifnull(a.n636,0),'mg','636'),
 -- Phytonutrients, Theobromine, mg, 263, phytonutrients-theobromine -->
@@ -131,24 +131,24 @@ xmlwrap02('phytonutrients-theobromine',ifnull(a.n263,0),'mg','263'),
 xmlwrap02('protein-complete',0.0,'g','10001'),
 -- Protein, Total Protein, g, 203, protein-total -->
 xmlwrap02('protein-total',ifnull(a.n203,0),'g','203'),
--- Vitamins, A, RAE, µg, 320, vitamins-vitamin_a -->
-xmlwrap02('vitamins-vitamin_a',ifnull(a.n320,0),'µg','320'),
--- Vitamins, B12, µg, 418, vitamins-vitamin_b12 -->
-xmlwrap02('vitamins-vitamin_b12',ifnull(a.n418,0),'µg','418'),
+-- Vitamins, A, RAE, mcg, 320, vitamins-vitamin_a -->
+xmlwrap02('vitamins-vitamin_a',ifnull(a.n320,0),'mcg','320'),
+-- Vitamins, B12, mcg, 418, vitamins-vitamin_b12 -->
+xmlwrap02('vitamins-vitamin_b12',ifnull(a.n418,0),'mcg','418'),
 -- Vitamins, B6, mg, 415, vitamins-vitamin_b6 -->
 xmlwrap02('vitamins-vitamin_b6',ifnull(a.n415,0),'mg','415'),
 -- Vitamins, C, mg, 401, vitamins-vitamin_c -->
 xmlwrap02('vitamins-vitamin_c',ifnull(a.n401,0),'mg','401'),
 -- Vitamins, Choline, mg, 421, vitamins-choline -->
 xmlwrap02('vitamins-choline',ifnull(a.n421,0),'mg','421'),
--- Vitamins, D, µg, 328, vitamins-vitamin_d -->
-xmlwrap02('vitamins-vitamin_d',ifnull(a.n328,0),'µg','328'),
+-- Vitamins, D, mcg, 328, vitamins-vitamin_d -->
+xmlwrap02('vitamins-vitamin_d',ifnull(a.n328,0),'mcg','328'),
 -- Vitamins, E, mg, 323, vitamins-vitamin_e -->
 xmlwrap02('vitamins-vitamin_e',ifnull(a.n323,0),'mg','323'),
--- Vitamins, Folate, DFE, µg, 435, vitamins-folate -->
-xmlwrap02('vitamins-folate',ifnull(a.n435,0),'µg','435'),
--- Vitamins, K, µg, 430, vitamins-vitamin_k -->
-xmlwrap02('vitamins-vitamin_k',ifnull(a.n430,0),'µg','430'),
+-- Vitamins, Folate, DFE, mcg, 435, vitamins-folate -->
+xmlwrap02('vitamins-folate',ifnull(a.n435,0),'mcg','435'),
+-- Vitamins, K, mcg, 430, vitamins-vitamin_k -->
+xmlwrap02('vitamins-vitamin_k',ifnull(a.n430,0),'mcg','430'),
 -- Vitamins, Niacin, mg, 406, vitamins-niacin -->
 xmlwrap02('vitamins-niacin',ifnull(a.n406,0),'mg','406'),
 -- Vitamins, Pantothenic Acid, mg, 410, vitamins-pantothenic -->
